@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="#ffffff"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+
+
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/gimage"
+
+                app:civ_border_width="2dp"
+                android:layout_marginLeft="40dp"
+                app:civ_border_color="#20b6e8"/>
+            <RelativeLayout
+                android:id="@+id/tableinside"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp">
+                <TextView
+                    android:id="@+id/employeename_TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:text="Venkatesh K3"
+                    android:textColor="#20b6e8"
+                    android:layout_gravity="center"
+                    android:paddingLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="15dp"
+                    />
+
+                <TextView
+                    android:id="@+id/designation_TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/employeename_TV"
+                    android:layout_marginLeft="8dp"
+                    android:text=" "
+                    android:textColor="#20b6e8"
+                    android:textSize="20px"
+                    android:paddingLeft="5dp"
+                    />
+            </RelativeLayout>
+
+        </TableRow>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:id="@+id/dividerline_tv"
+            android:background="#20b6e8"
+            android:layout_marginTop="16dp"
+            android:textColor="#20b6e8"
+            />
+
+
+        <TableRow
+            android:id="@+id/icontable1"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center">
+
+
+            <ImageView
+                android:id="@+id/leave_IV"
+                android:layout_marginLeft="40dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/leave"
+                />
+
+            <ImageView
+                android:id="@+id/selfservice_IV"
+                android:layout_marginLeft="95dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/selfservice" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/icontabletextview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/leave_TV"
+                android:text="Leave"
+
+                android:layout_marginLeft="50dp"
+                android:textColor="#20b6e8"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/selfservice_TV"
+                android:layout_marginLeft="110dp"
+                android:text="Selfservice"
+                android:textColor="#20b6e8"
+                />
+        </TableRow>
+
+
+        <TableRow
+            android:id="@+id/icontable2"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="80dp">
+
+
+            <ImageView
+                android:id="@+id/announcement_IV"
+                android:layout_marginLeft="30dp"
+                android:layout_width="80dp"
+                android:layout_height="70dp"
+                android:background="@drawable/announcements" />
+
+            <ImageView
+                android:id="@+id/holiday_IV"
+                android:layout_marginLeft="90dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/holidaylist" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/icontabletextview2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+
+            <TextView
+                android:id="@+id/announcement_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="31dp"
+                android:text="Announcement"
+                android:textColor="#20b6e8"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/holiday_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:text="HolidayList"
+                android:textColor="#20b6e8"
+                android:textSize="15dp" />
+        </TableRow>
+
+
+
+
+
+
+
+
+
+
+        <!-- <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:gravity="center_vertical"
+             >
+
+             <TextView
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/announcement_TV"
+                 android:text="Announcement"
+                 android:layout_weight="1"
+                 android:gravity="center"
+                 android:textColor="#20b6e8"
+                 />
+
+             <TextView
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/holiday_TV"
+                 android:text="HolidayList"
+                 android:gravity="center"
+                 android:layout_weight="1"
+                 android:textColor="#20b6e8"
+                 />
+         </LinearLayout>
+ -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="60dp"
+            >
+            <ImageView
+                android:id="@+id/OD_IV"
+                android:layout_width="70dp"
+                android:layout_height="120dp"
+                android:background="@drawable/od" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/OndutyLabel_TV"
+                android:text="OnDuty"
+                android:textColor="#20b6e8"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+<!--
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</LinearLayout>-->

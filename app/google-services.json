@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "724177704830",
+    "firebase_url": "https://fssihrms.firebaseio.com",
+    "project_id": "fssihrms",
+    "storage_bucket": "fssihrms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724177704830:android:8549f85a2b39d534",
+        "android_client_info": {
+          "package_name": "com.fssihrms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724177704830-t6l3ddrnvlankg33ubrq32p33285fs1s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fssihrms",
+            "certificate_hash": "6ee2d84f05a8b4e0a569c58e33622e72b182ac3e"
+          }
+        },
+        {
+          "client_id": "724177704830-qbc3s2vsvnedtv8cbem9g280nqrjp3mr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1dBpVgoHrGf9BtY10ew-Qwp7BKUuqQ9o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724177704830-qbc3s2vsvnedtv8cbem9g280nqrjp3mr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

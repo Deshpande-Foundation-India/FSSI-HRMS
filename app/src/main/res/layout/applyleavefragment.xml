@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:gravity="center_vertical"
+            >
+
+            <TextView
+                android:id="@+id/remaning_TV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Remaining"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:textColor="#20b6e8"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_weight=".2"
+                android:gravity="center"
+                android:textColor="#20b6e8"
+                />
+
+            <TextView
+                android:id="@+id/out_TV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Out"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:layout_weight="1"
+                android:textColor="#20b6e8"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/balanc_TV"
+                android:text=""
+                android:textSize="50dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+
+                android:gravity="right"
+                android:textColor="#20b6e8"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="/"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:layout_weight=".2"
+                android:gravity="center"
+                android:textColor="#20b6e8"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/openingbalance_TV"
+                android:text=""
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:gravity="left"
+                android:layout_weight="1"
+                android:textColor="#20b6e8"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+
+            >
+
+
+            <TextView
+                android:id="@+id/fromdate_TV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="From Date"
+                android:textSize="15dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+                android:textColor="#20b6e8"
+                />
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#20b6e8"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/todate_TV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:text="To Date"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="#20b6e8"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+
+            >
+
+
+            <TextView
+                android:id="@+id/clickfromdate_TV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Click for Calendar"
+                android:textSize="12dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+                android:textColor="#c51162"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#20b6e8"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/clicktodate_TV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:text="Click for Calendar"
+
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="#c51162"
+                />
+     </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="30dp"
+
+            >
+
+
+            <TextView
+                android:id="@+id/typeofleave_TV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Type of leave"
+                android:textSize="15dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+                android:textColor="#20b6e8"
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#20b6e8"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/duration_TV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:text="Duration"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textColor="#20b6e8"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+
+
+            <Spinner
+                android:id="@+id/typeofleave_SP"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:hint="Select"
+                android:gravity="center"
+                android:textSize="10dp"
+                android:layout_weight="1"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+                />
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#20b6e8"
+
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/durationofleave_SP"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:hint="Select"
+                android:gravity="center"
+                android:textSize="10dp"
+                android:layout_weight="1"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="30dp"
+
+            >
+
+
+            <TextView
+                android:id="@+id/incharge_TV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Incharge"
+                android:textSize="15dp"
+
+                android:layout_weight="1"
+
+                android:gravity="center"
+                android:textColor="#20b6e8"
+                />
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#20b6e8"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/alternative_TV"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+
+                android:text="Alternative Cell No:"
+                android:textSize="15dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:fontFamily=""
+                android:textColor="#20b6e8"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+
+
+            <Spinner
+                android:id="@+id/incharge_SP"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:hint="Select"
+                android:layout_weight=".8"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:gravity="center"
+
+                />
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#20b6e8"
+
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/alternativecell_ET"
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#20b6e8"
+                android:digits="0123456789"
+                android:gravity="center"
+                android:inputType="number"
+                android:maxLength="10"
+                android:textColor="#354049"
+                android:textSize="10dp" />
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/taskdetails_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task Details:"
+
+            android:layout_marginLeft="20dp"
+            android:textSize="15dp"
+            android:textColor="#20b6e8"/>
+
+
+        <EditText
+            android:id="@+id/taskdetailsreason_ET"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:inputType="textMultiLine"
+            android:textColor="#354049"
+            android:background="@drawable/shap"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/reasons_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reason:"
+
+            android:layout_marginLeft="20dp"
+            android:textSize="15dp"
+            android:textColor="#20b6e8"/>
+
+
+        <EditText
+            android:id="@+id/leavereason_ET"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:inputType="textMultiLine"
+            android:textColor="#354049"
+            android:background="@drawable/shap"/>
+
+
+        <Button
+            android:id="@+id/applyleave_BT"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+
+            android:layout_marginTop="29dp"
+
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:textColor="#FFFFFF"
+            android:text="Apply Leave"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:background="#20b6e8"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+           android:layout_marginTop="25dp"
+            android:gravity="center"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

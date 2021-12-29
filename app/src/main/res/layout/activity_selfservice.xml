@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="#ffffff"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF"
+        android:layout_marginTop="73px"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/onlinerequest_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Online Request:"
+
+            android:layout_marginLeft="20dp"
+            android:textSize="28px"
+            android:textStyle="bold"
+            android:textColor="#20b6e8"/>
+
+
+        <Spinner
+            android:id="@+id/onlinerequest_SP"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:paddingLeft="5dp"
+             />
+
+        <!--android:background="@null"-->
+        <!--style="@style/Widget.AppCompat.Spinner.Underlined"-->
+
+
+        <TextView
+            android:id="@+id/description_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="73px"
+            android:text="Description:"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:textSize="28px"
+            android:textColor="#20b6e8"/>
+
+
+        <EditText
+            android:id="@+id/description_ET"
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:inputType="textMultiLine"
+            android:textColor="#000000"
+            android:background="@drawable/shap"/>
+
+
+
+
+        <Button
+            android:id="@+id/selfservicesubmit_BT"
+            android:layout_width="409px"
+            android:layout_height="60px"
+
+            android:layout_marginTop="75px"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:textColor="#FFFFFF"
+            android:text="Apply Request"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:background="#20b6e8"/>
+
+
+
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</ScrollView>
